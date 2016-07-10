@@ -9,12 +9,12 @@ colored('3','grey','on_cyan'),
 colored('4','grey','on_cyan'),
 colored('5','grey','on_cyan')]
 board.append(toprow)
-leftcol={
-0:colored('A','grey','on_cyan'),
-1:colored('B','grey','on_cyan'),
-2:colored('C','grey','on_cyan'),
-3:colored('D','grey','on_cyan'),
-4:colored('E','grey','on_cyan')}
+leftcol=[
+colored('A','grey','on_cyan'),
+colored('B','grey','on_cyan'),
+colored('C','grey','on_cyan'),
+colored('D','grey','on_cyan'),
+colored('E','grey','on_cyan')]
 for x in range(5):
     row=[colored('O','white','on_blue')] * 5
     row.insert(0,leftcol[x])    
