@@ -70,9 +70,7 @@ for turn in range(4):
             cprint('Game over! Better luck next time!','yellow','on_grey')
             break		
     if turn>=0:	
+	turnnum=colored(str(turn+2),'red','on_grey')
 	print ''
-	turntitle=colored('Turn ','red','on_grey')
-    	turnnum=colored(str(turn+2),'red','on_grey')
-    	turnfin=turntitle+turnnum+':'
-    	print turnfin
+    	print colored('Turn ','red','on_grey')+turnnum+':'
     print_board(board)
