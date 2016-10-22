@@ -10,7 +10,7 @@ while loopvar0==1:
     result=0
     turn=1
     shuffle(card_list)
-    raw_input('Think of an integer between 1 and 31 (inclusive) and press any key!')
+    raw_input('Think of an integer between 1 and 31 (inclusive) and press enter!')
     for card in card_list:
         loopvar1=1
         shuffle(card)
